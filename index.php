@@ -56,7 +56,7 @@
 </head>
 <body>
 
-<pre id="pre"></pre><pre>$ <form id='formulaire' method='post' action='ssh.php' ><input type="text" name="command" id="command" /></form></pre>
+<pre id="pre"></pre><pre>$ <form id='formulaire' method='post' action='term.php' ><input type="text" name="command" id="command" /></form></pre>
 
 <script type="text/javascript">
 
@@ -79,7 +79,7 @@ function post_to_url(path, params, method)
     return oReq.responseText;
 }
 
-var url_execute = 'ssh.php';
+var url_execute = 'term.php';
 var chemin = '';
 var command = document.getElementById("command");
 var pre = document.getElementById("pre");
